@@ -23,3 +23,11 @@ console.log(d.toPrecision(4));
 // valueOf()
 var e=455;
 console.log(e.toPrecision()); 
+
+// static method
+// Number.isFinite()
+
+var f=1000;
+console.log(Number.isFinite());g
+
+
