@@ -12,3 +12,8 @@ document.write(b);
 var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let c = cars.at(4);
 document.write(c);
+
+// join() method
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let d = cars.join("$");
+document.write(d);
