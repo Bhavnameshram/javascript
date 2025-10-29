@@ -22,3 +22,8 @@ document.write(d);
 var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let e = cars.pop();
 document.write(e);
+
+// push method
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let f = cars.push("Vegnar");
+document.write(f);
