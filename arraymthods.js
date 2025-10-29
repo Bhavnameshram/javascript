@@ -17,3 +17,8 @@ document.write(c);
 var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let d = cars.join("$");
 document.write(d);
+
+// pop method
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let e = cars.pop();
+document.write(e);
