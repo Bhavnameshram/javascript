@@ -27,3 +27,8 @@ document.write(e);
 var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let f = cars.push("Vegnar");
 document.write(f);
+
+// shift method
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let g= cars.shift();
+document.write(g);
