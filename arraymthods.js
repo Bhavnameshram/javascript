@@ -35,6 +35,16 @@ document.write(g);
 
 // unshift method
 var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
-let g= cars.unshift("Kia");
-document.write(g);
+let h= cars.unshift("Kia");
+document.write(h);
+
+// // delete method
+// var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+// let i= delete cars[3];
+// document.write(i);
+
+// // concat method
+// var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+// let j= cars.concat[2];
+// document.write(j);
 
