@@ -52,3 +52,8 @@ document.write(j);
 var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let k= cars.copyWithin(2,4);
 document.write(k);
+
+// flat method
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let l= cars.flat();
+document.write(l);
