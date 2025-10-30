@@ -32,3 +32,9 @@ document.write(f);
 var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let g= cars.shift();
 document.write(g);
+
+// unshift method
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let g= cars.unshift("Kia");
+document.write(g);
+
