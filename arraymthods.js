@@ -38,10 +38,10 @@ var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let h= cars.unshift("Kia");
 document.write(h);
 
-// // delete method
-// var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
-// let i= delete cars[3];
-// document.write(i);
+// delete method
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let i= delete cars[3];
+document.write(i);
 
 // // concat method
 // var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
