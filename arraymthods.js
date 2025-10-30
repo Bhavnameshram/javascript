@@ -43,8 +43,8 @@ var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let i= delete cars[3];
 document.write(i);
 
-// // concat method
-// var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
-// let j= cars.concat[2];
-// document.write(j);
+// concat method
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let j= cars.concat();
+document.write(j);
 
