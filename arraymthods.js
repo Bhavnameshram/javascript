@@ -48,3 +48,7 @@ var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let j= cars.concat();
 document.write(j);
 
+// copywithin method
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let k= cars.copyWithin(2,4);
+document.write(k);
