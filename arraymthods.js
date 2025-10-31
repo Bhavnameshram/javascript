@@ -72,3 +72,8 @@ document.write(n);
 var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let o = cars.splice(2,0, "Wagnar", "Shift");
 document.write(o);
+
+// tospliced
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let p = cars.toSpliced(2,0,);
+document.write(o);
