@@ -57,3 +57,9 @@ document.write(k);
 var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let l= cars.flat();
 document.write(l);
+
+// slice method
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let m = cars.slice(1);
+document.write(m);
+
