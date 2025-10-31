@@ -63,3 +63,12 @@ var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let m = cars.slice(1);
 document.write(m);
 
+// slice method
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let n = cars.slice(1,3);
+document.write(n);
+
+// // slice method
+// var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+// let o = cars.splice(2,0, "Wagnar", "Shift");
+// document.write(o);
