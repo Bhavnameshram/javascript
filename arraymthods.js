@@ -77,3 +77,13 @@ document.write(n);
 // var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 // let p = cars.toSpliced(0,1);
 // document.write(p);
+
+// tospliced
+var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+let p = cars.include(4);
+if ( a==true){
+document.write("element is present");
+}
+else{
+    document.write("element is not present");
+}
