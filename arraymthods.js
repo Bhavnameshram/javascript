@@ -64,9 +64,9 @@
 // document.write(m);
 
 // slice method
-var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
-let n = cars.slice(1,3);
-document.write(n);
+// var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+// let n = cars.slice(1,3);
+// document.write(n);
 
 // // splice method
 // var cars=["Volvo","Hariear","BMW","Creata","Defender"];
@@ -80,8 +80,8 @@ document.write(n);
 
 // tospliced
 var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
-let p = cars.include(4);
-if ( a==true){
+let p = cars.includes("Creata");
+if ( p==true){
 document.write("element is present");
 }
 else{
