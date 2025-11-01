@@ -78,7 +78,7 @@
 // let p = cars.toSpliced(0,1);
 // document.write(p);
 
-// tospliced
+// includes
 var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
 let p = cars.includes("Creata");
 if ( p==true){
@@ -87,3 +87,8 @@ document.write("element is present");
 else{
     document.write("element is not present");
 }
+
+// sort
+ var cars=["Volvo", "Hariear","BMW","Creata","Defender"];
+ let o = cars.sort();
+document.write(o);
